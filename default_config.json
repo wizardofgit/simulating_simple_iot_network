@@ -1,0 +1,16 @@
+{
+       "method":
+              "HTTP",
+       "url":
+              "http://localhost:5000/add_reading/",
+       "interval":
+              1,
+       "broker":
+              "test.mosquitto.org",
+       "topic":
+              "pwr/sensors",
+       "reading":
+              1,
+       "source":
+              "austin_weather.csv"
+}

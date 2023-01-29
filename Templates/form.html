@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+    <title>Config change</title>
+</head>
+    <body>
+        <h2>Change of configuration for {{ id }}</h2>
+        <form method="POST">
+            <div>
+                <label>method</label>
+                <input name="method">
+            </div>
+
+            <div>
+                <label>url</label>
+                <input name = "url">
+            </div>
+
+            <div>
+                <label>interval</label>
+                <input name="interval">
+            </div>
+
+            <div>
+                <label>broker</label>
+                <input name="broker">
+            </div>
+
+            <div>
+                <label>topic</label>
+                <input name="topic">
+            </div>
+
+            <div>
+                <label>reading</label>
+                <input name="reading">
+            </div>
+
+            <div>
+                <label>source</label>
+                <input name="source">
+            </div>
+
+            <div>
+                <label>on</label>
+                <input id="on" type="radio" value='True' name="on">
+                <label for="on">ON</label>
+                <input id="off" type="radio" value='False' name="on">
+                <label for="off">OFF</label><br>
+            </div>
+            <button type="reset">Reset</button>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
