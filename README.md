@@ -1,1 +1,1 @@
-# simulating_simple_iot_network
+Projekt zawiera proste symulowanie sieci urządzeń IoT - czujników zbierających pewne dane. Dane są przesyłane za pomocą HTTP bądź MQTT (w zależności od konfiguracji). Całość obsługiwana jest przez kilka serwerów Flaska (proste strony w HTML).
